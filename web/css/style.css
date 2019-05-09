@@ -1,0 +1,183 @@
+:root {
+    --primary-color: #e64a19;
+    --secondary-color: #ff9800;
+    --primary-text-color: #404040;
+    --secondary-text-color: #fff;
+
+    --shadows-0: none;
+    --shadows-1: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
+    --shadows-2: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+    --shadows-3: 0px 1px 8px 0px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 3px 3px -2px rgba(0,0,0,0.12);
+    --shadows-4: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+    --shadows-5: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+    --shadows-6: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+    --shadows-7: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+    --shadows-8: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+    --shadows-9: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+    --shadows-10: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+    --shadows-11: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+    --shadows-12: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+    --shadows-13: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+    --shadows-14: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+    --shadows-15: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+    --shadows-16: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+    --shadows-17: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+    --shadows-18: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+    --shadows-19: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+    --shadows-20: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+    --shadows-21: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+    --shadows-22: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+    --shadows-23: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+    --shadows-24: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+
+.appbar {
+    background-color: var(--primary-color);
+    top: 0;
+    left: auto;
+    right: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    box-shadow: var(--shadows-5);
+
+}
+
+.appbar .toolbar {
+    color: var(--secondary-text-color);
+    padding: 0 24px;
+    width: 100%;
+    display: flex;
+}
+.fab{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: 4px 4px;
+
+    box-shadow: var(--shadows-3);
+    border: none;
+    cursor: pointer;
+
+}
+.primary{
+    background: var(--primary-color);
+    color: var(--secondary-text-color);
+}
+.secondary{
+    background: var(--secondary-color);
+    color: var(--secondary-text-color);
+}
+.small{
+    width: 28px;
+    height: 28px;
+}
+.small>i{
+    font-size: 18px;
+}
+.normal{
+    width: 48px;
+    height: 48px;
+}
+.large{
+    width: 56px;
+    height: 56px;
+}
+.header-title{
+    font-weight: 400;
+    flex-grow: 1;
+}
+.list{
+    width: 100%;
+    padding-inline-start: inherit;
+    list-style-type: inherit;
+}
+.list-item{
+    height: 48px;
+    border-bottom: #b7b7b7 1px solid;
+    transition: background-color 0.3s ease-out;
+    list-style: none;
+    display: flex;
+    text-align: inherit;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 16px;
+}
+.list-item-text{
+    flex-grow: 1;
+    font-weight: 300;
+    cursor: pointer;
+}
+.list-item:hover{
+    background-color: rgba(255, 183, 77, 0.18);
+    border-bottom: #f57c00 1px solid;
+    border-top: #f57c00 1px solid;
+}
+h1, h2, h3, h4, h5, h6, span, p, body, html, button, input, label{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+body, html{
+    margin: inherit;
+    padding: inherit;
+}
+.modal{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.modal-fade{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.86);
+    position: fixed;
+}
+.modal-area{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-flex;
+}
+.modal-content{
+    background-color: #eee;
+    width: 400px;
+    border: #b7b7b7;
+    border-radius: 8px;
+    padding: 16px;
+}
+.form-group > label, input {
+    display: block;
+    margin: 16px 1px;
+}
+
+.input {
+    width: 100%;
+    border: inherit;
+    padding: 4px;
+    border-bottom: #919191 1px solid;
+}
+.input:focus{
+    outline: none;
+    border-bottom: var(--primary-color) 2px solid;
+}
+.button{
+    color: var(--secondary-text-color);
+    background-color: var(--primary-color);
+    box-shadow: var(--shadows-5);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-weight: 500;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
