@@ -10,3 +10,5 @@ estan hechos 100% nativos y sin librerias
 * NetBean IDE cualquier version
 * Java JDK 8
 * Tomcat bien configurado
+
+El ejercicio corre en (http://localhost:8080/todo_app)[http://localhost:8080/todo_app]
